@@ -8,7 +8,9 @@ Qiita アドカレが Qiita 外記事の評価一切なしで世知辛いので�
 
 **無い**
 
-仕方がないので `https://qiita.com/advent-calendar/2017/ranking/feedbacks/all` 辺りからスクレイピングしよう全日埋まってない奴出てきてないけど仕方がない
+仕方がないので `https://qiita.com/advent-calendar/2017/ranking/feedbacks/all` 辺りからスクレイピングしよう
+
+全日埋まってない奴出てきてないけど仕方がない
 
 ## アドカレのエントリ URL の取り方
 
