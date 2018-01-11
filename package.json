@@ -1,0 +1,22 @@
+{
+  "name": "qiitaadcalrankingbyhatebu",
+  "version": "1.0.0",
+  "description": "Qiita アドカレが Qiita 外記事の評価一切なしで世知辛いのではてブ数でランキング作ってみるテスト",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc src/*.ts --outDir dist/",
+    "exec": "node .",
+    "before:exec": "build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/ysatomediba/qiitaadcalrankingbyhatebu.git"
+  },
+  "author": "Yoshiaki Satoh",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/ysatomediba/qiitaadcalrankingbyhatebu#readme",
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
