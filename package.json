@@ -4,9 +4,9 @@
   "description": "Qiita アドカレが Qiita 外記事の評価一切なしで世知辛いのではてブ数でランキング作ってみるテスト",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc src/*.ts --outDir dist/",
+    "build": "tsc src/*.ts --outDir dist/ --lib es2015",
     "exec": "node .",
-    "preexec": "tsc src/*.ts --outDir dist/",
+    "preexec": "tsc src/*.ts --outDir dist/ --lib es2015",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +20,7 @@
     "typescript": "^2.6.2"
   },
   "dependencies": {
-    "request": "^2.83.0",
-    "xmldom": "^0.1.27"
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
   }
 }
