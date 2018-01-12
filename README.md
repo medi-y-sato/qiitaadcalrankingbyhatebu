@@ -9,11 +9,11 @@ Qiita アドカレが Qiita 外記事の評価一切なしで世知辛いので�
 [生成済みのランキング](result.md) があるので、ランキング見たいだけならこちらでお願いします
 
 ```sh
-$ npm install
-$ npm run exec
+git clone git@github.com:medi-y-sato/qiitaadcalrankingbyhatebu.git
+npm install -D typescript
+npm install
+npm run exec
 ```
-
-[`result.md`](result.md) が出来上がるので Markdown として開く
 
 # やってること
 
